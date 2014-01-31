@@ -26,11 +26,11 @@ fi
 
 mkdir script_overlay_was_run
 
-echo "fixing Makefile build-id"
-sed -i ../Makefile  -e 's/--build-id/--build-id=none/g' 
-
-echo "result is:"
-grep  build-id ../Makefile 
+#echo "fixing Makefile build-id"
+#sed -i ../Makefile  -e 's/--build-id/--build-id=none/g' 
+#
+#echo "result is:"
+#grep  build-id ../Makefile 
 
 echo "========================================================================================"
 
